@@ -14,6 +14,11 @@
 		8F544CBB1BD7FD0F00EF3EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F544CB91BD7FD0F00EF3EC7 /* LaunchScreen.storyboard */; };
 		8F544CC61BD7FD0F00EF3EC7 /* rgmobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CC51BD7FD0F00EF3EC7 /* rgmobTests.swift */; };
 		8F544CD11BD7FD0F00EF3EC7 /* rgmobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CD01BD7FD0F00EF3EC7 /* rgmobUITests.swift */; };
+		8F544CDF1BD8063C00EF3EC7 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CDE1BD8063C00EF3EC7 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
+		8F544CE11BD80A7500EF3EC7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CE01BD80A7500EF3EC7 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		8F544CE31BD80C6400EF3EC7 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CE21BD80C6400EF3EC7 /* Enemy.swift */; settings = {ASSET_TAGS = (); }; };
+		8F544CE51BD8126D00EF3EC7 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CE41BD8126D00EF3EC7 /* Kimara.swift */; settings = {ASSET_TAGS = (); }; };
+		8F544CE71BD8133800EF3EC7 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F544CE61BD8133800EF3EC7 /* DevilWizard.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		8F544CCC1BD7FD0F00EF3EC7 /* rgmobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rgmobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F544CD01BD7FD0F00EF3EC7 /* rgmobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgmobUITests.swift; sourceTree = "<group>"; };
 		8F544CD21BD7FD0F00EF3EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F544CDE1BD8063C00EF3EC7 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8F544CE01BD80A7500EF3EC7 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8F544CE21BD80C6400EF3EC7 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		8F544CE41BD8126D00EF3EC7 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		8F544CE61BD8133800EF3EC7 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		8F544CAF1BD7FD0F00EF3EC7 /* rgmob */ = {
 			isa = PBXGroup;
 			children = (
+				8F544CE81BD8138800EF3EC7 /* Models */,
 				8F544CB01BD7FD0F00EF3EC7 /* AppDelegate.swift */,
 				8F544CB21BD7FD0F00EF3EC7 /* ViewController.swift */,
 				8F544CB41BD7FD0F00EF3EC7 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				8F544CD21BD7FD0F00EF3EC7 /* Info.plist */,
 			);
 			path = rgmobUITests;
+			sourceTree = "<group>";
+		};
+		8F544CE81BD8138800EF3EC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F544CDE1BD8063C00EF3EC7 /* Character.swift */,
+				8F544CE01BD80A7500EF3EC7 /* Player.swift */,
+				8F544CE21BD80C6400EF3EC7 /* Enemy.swift */,
+				8F544CE41BD8126D00EF3EC7 /* Kimara.swift */,
+				8F544CE61BD8133800EF3EC7 /* DevilWizard.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F544CE11BD80A7500EF3EC7 /* Player.swift in Sources */,
+				8F544CE31BD80C6400EF3EC7 /* Enemy.swift in Sources */,
+				8F544CE71BD8133800EF3EC7 /* DevilWizard.swift in Sources */,
+				8F544CE51BD8126D00EF3EC7 /* Kimara.swift in Sources */,
+				8F544CDF1BD8063C00EF3EC7 /* Character.swift in Sources */,
 				8F544CB31BD7FD0F00EF3EC7 /* ViewController.swift in Sources */,
 				8F544CB11BD7FD0F00EF3EC7 /* AppDelegate.swift in Sources */,
 			);
